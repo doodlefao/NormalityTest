@@ -1,0 +1,25 @@
+Package: NormalityTest
+Title: Test the normality of your data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Vincent",
+           family = "Guiot",
+           role = c("aut", "cre"),
+           email = "vincent.guiot@student.uclouvain.be")
+Description: This package is build to test the normality of a data vector or a data frame via shapiro test and visual analysis. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Depends: 
+    R (>= 2.10)
+Imports: 
+    kohonen (>= 3.0.10),
+    stats (>= 4.0.0),
+    graphics (>= 4.0.0),
+    qpdf
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
